@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #0a0a0a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(16, 245, 9, 0.2);
+    overflow: hidden;
+    margin: 50px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-60px);
+    box-shadow: 0 12px 16px rgba(241, 40, 4, 0.2);
+}
+
+.container .card img{
+    width: 470px;
+    height: 270px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 1000;
+    text-decoration: none;
+    color: #34db34;
+}
+* IMG Header **/
+ .img-header{
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     background:url(img/header.jpg);
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
